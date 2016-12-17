@@ -10,4 +10,7 @@ build/
 nbproject
 vendor
 node_modules/
-
+tmp
+*-compiled.js
+*.map
+var/www/dist
