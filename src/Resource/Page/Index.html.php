@@ -12,7 +12,7 @@ return <<<"EOT"
     <title>{$ssr->escape('title')}</title>
 </head>
 <body>
-<div id="root">{$markup}</div>
+<div id="root"></div>
 <script src="build/react.bundle.js"></script>
 <script src="build/hello.bundle.js"></script>
 <script>{$script}</script>
